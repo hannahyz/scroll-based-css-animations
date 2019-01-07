@@ -1,0 +1,150 @@
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes slideInUp {
+	from {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes slideInUp {
+	from {
+		-webkit-transform: translateY(100px);
+		opacity: 0;
+	}
+	to {
+		-webkit-transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes slideInDown {
+	from {
+		transform: translateY(-100px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes slideInDown {
+	from {
+		-webkit-transform: translateY(-100px);
+		opacity: 0;
+	}
+	to {
+		-webkit-transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes slideInLeft {
+	from {
+		transform: translateX(-100px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes slideInLeft {
+	from {
+		-webkit-transform: translateX(-100px);
+		opacity: 0;
+	}
+	to {
+		-webkit-transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes slideInRight {
+	from {
+		transform: translateX(100px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes slideInRight {
+	from {
+		-webkit-transform: translateX(100px);
+		opacity: 0;
+	}
+	to {
+		-webkit-transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.fadeIn.inView {
+	animation-name: fadeIn;
+	animation-duration: 700ms;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: fadeIn;
+	-webkit-animation-duration: 700ms;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.slideInUp.inView {
+	animation-name: slideInUp;
+	animation-duration: 700ms;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: slideInUp;
+	-webkit-animation-duration: 700ms;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.slideInDown.inView {
+	animation-name: slideInDown;
+	animation-duration: 700ms;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: slideInDown;
+	-webkit-animation-duration: 700ms;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.slideInLeft.inView {
+	animation-name: slideInLeft;
+	animation-duration: 700ms;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: slideInLeft;
+	-webkit-animation-duration: 700ms;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.slideInRight.inView {
+	animation-name: slideInRight;
+	animation-duration: 700ms;
+	animation-fill-mode: forwards;
+	-webkit-animation-name: slideInRight;
+	-webkit-animation-duration: 700ms;
+	-webkit-animation-fill-mode: forwards;
+}
