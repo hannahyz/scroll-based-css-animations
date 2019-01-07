@@ -2,7 +2,7 @@
 These light-weight scroll-based animations make a webpage more dynamic without compromising on performance. Use and customize however you like. 
 
 ## Usage
-Step 1: Add the following snippet to <head>
+Step 1: Add the following snippet to head
   
 ```bash
   <link rel="stylesheet" type="text/css" href="animations.css">
