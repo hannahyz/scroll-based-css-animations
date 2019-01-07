@@ -21,4 +21,4 @@ Ta-da!
 For more examples, check out example.html
 
 ## License
-Animate.css is licensed under the MIT license. (http://opensource.org/licenses/MIT)
+This project is licensed under the MIT license. (http://opensource.org/licenses/MIT)
