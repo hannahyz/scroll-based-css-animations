@@ -20,5 +20,15 @@ Ta-da!
 
 For more examples, check out example.html
 
+## Animations
+Great things come from humble beginnings. The animations currently supported are
+```bash
+ - fadeIn
+ - slideInUp
+ - slideInDown
+ - slideInLeft
+ - slideInRight
+```
+
 ## License
 This project is licensed under the MIT license. (http://opensource.org/licenses/MIT)
